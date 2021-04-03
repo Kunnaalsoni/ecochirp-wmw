@@ -1,0 +1,375 @@
+<html>
+
+<head>
+    <title>Ecochirp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="static/style-header.css" rel="stylesheet">
+    <link href="static/header-1.css" rel="stylesheet">
+    <link href="static/reset.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+<script>
+let navToggle = document.querySelector(".nav__toggle");
+let navWrapper = document.querySelector(".nav__wrapper");
+navToggle.addEventListener("click", function () {
+  if (navWrapper.classList.contains("active")) {
+    this.setAttribute("aria-expanded", "false");
+    this.setAttribute("aria-label", "menu");
+    navWrapper.classList.remove("active");
+  } else {
+    navWrapper.classList.add("active");
+    this.setAttribute("aria-label", "close menu");
+    this.setAttribute("aria-expanded", "true");
+  }
+});
+</script>
+    <header class="site-header">
+    <div class="wrapper site-header__wrapper">
+        <a href="#" class="brand flex-display"><img src="static/ecochirp-logo.png"><p class = "center-flex">Ecochirp Foundation</p></a>
+        <nav class="nav">
+        <button class="nav__toggle" aria-expanded="false" type="button">
+            menu
+        </button>
+        <ul class="nav__wrapper">
+            <li class="nav__item"><a href="#">Who are we</a></li>
+            <li class="nav__item"><a href="#">What we do</a></li>
+            <li class="nav__item"><a href="#">Workshops</a></li>
+            <li class="nav__item"><a href="#">Events</a></li>
+            <li class="nav__item"><a href="#">Resource Centre</a></li>
+            <li class="nav__item"><a href="#">Join Us</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+    <section class="hero">
+        <div class="inner-text">
+            <p class="font-decoration hero-p">Summer Edition | 1st June - 15th July, 2021</p>
+            <h1 class="hero-heading">WASTE<br>MANAGEMENT<br>BOOTCAMP</h1>
+            <p class="font-decoration hero-p">Application deadline: 22nd May 2021 | Scholarships available</p>
+            <div class="spacer-10"></div>
+            <div class="spacer-10"></div>
+            <a href = "https://bit.ly/3fDG2cI" target= "_blank">
+            <button class="red-button font-decoration">Apply Now</button>
+            </a>
+            <div class="spacer-10"></div>
+            <div class="spacer-10"></div>
+        </div>
+        <div>
+        <img src="static/hero-vector.png" class="hero-vector">
+        
+        </div>
+    </section>
+        <img src="static/hero-vector2.png" class= "hero-vector z-index">
+    <section class="flex-section container">
+
+        <section class="inner-left font-decoration align-self-center">
+            <p class = "width-90">Waste Management Bootcamp (WMB) is 45 days virtual Bootcamp focused on providing a rigorous learning experience that nurtures future leaders for the space of waste management. The mission of WMB is to serve as a launchpad for building skills
+                of youth who are aspiring leaders, sustainability, and/or environmental enthusiasts and want to build a career in this sector or are already on their journey but are looking to upskill themselves.</p>
+            <div class = "spacer-10"></div>    
+            <p class = "width-90"> Your experience & learnings at WMB will enable you to become a strong, highly motivated & skilled individual, with a mission to solve the widespread issue of waste management across the nation.</p>
+        </section>
+        <section class="font-decoration">
+            <div class="video-right">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EUQ0FxzvK9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </section>
+    <img src = "static/body-vector.png" class = "body-vector">
+        <div class="spacer-10"></div>
+            <div class="spacer-10"></div>
+    <section class="">
+        <div class="flex-section container padding-top">
+            <section class="inner-left font-decoration">
+                <img src="static/laptop.png" height="370">
+            </section>
+            <section class="inner-right font-decoration width-42">
+                <div class="right-decorator">
+                    <p><span class="red-text">Learn</span> from the nations top experts, academicians, researchers, policymakers, politicians, and bureaucrats from their experiences.</p>
+                    <div class="spacer-10"></div>
+                    <p><span class="red-text">Build</span> with the help of experts & mentors as part of your experiential learning module</p>
+                    <div class="spacer-10"></div>
+                    <p><span class="red-text">Act</span> upon your own built solution along with your team & under the guidance of ecochirp experts.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+    <div class="spacer-80"></div>
+    <section class="green-bg font-decoration">
+        <div class="flex-class">
+            <img src="static/bulb.png" class="left-image">
+            <div class="right-image-section font-25 container">
+                <div class="spacer-10"></div>
+                <div class="spacer-10"></div>
+                <p><b>Do you know?</b></p>
+                <p>According to the " Water & Waste Management Consulting Services Global Market Report, 2020-30: COVID-19 Growth & Change " - The water & waste management consulting services market is expected to reach $9.72 billion in 2023 at a CAGR of
+                    6.18%.
+                </p>
+            </div>
+        </div>
+        <div class="margin-30px"></div>
+        <div class="spacer-10"></div>
+        <div class="spacer-10"></div>
+        <h1 class="font-31 padding-left">Why you should attend Waste Management Bootcamp?</h1>
+        <div class="margin-30px"></div>
+        <div class="spacer-10"></div>
+    </section>
+    <div class="spacer-10"></div>
+    <div class="spacer-10"></div>
+    <div class="spacer-10"></div>
+    <section class="align-center">
+        <div class="width-35">
+            <div class="flex-class">
+                <img src="static/why-1.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Understanding the Core</h2>
+                    <p class="font-decoration">Expand your core knowledge in waste management policies, technology, compliances, law etc.</p>
+                </div>
+            </div>
+            <div class="spacer-10"></div>
+            <div class="flex-class">
+                <img src="static/why-2.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Build skills</h2>
+                    <p class="font-decoration">Gain concrete knowledge and skills to establish a viable career path in the waste management sector.</p>
+                </div>
+            </div>
+            <div class="spacer-10"></div>
+            <div class="flex-class">
+                <img src="static/why-3.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Understanding India</h2>
+                    <p class="font-decoration">Understand the real struggles & problems faced while working on the ground & how to resolve them.</p>
+                </div>
+            </div>
+            <div class="spacer-10"></div>
+            <div class="flex-class">
+                <img src="static/why-4.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Global Exposure</h2>
+                    <p class="font-decoration">Understand the problem on a global level to build a solution from India but for the world.</p>
+                </div>
+            </div>
+        </div>
+        <div class="width-35">
+            <div class="flex-class">
+                <img src="static/why-5.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Action - oriented approach</h2>
+                    <p class="font-decoration">Enhance your learning with an action-oriented approach guided by the experts during the program.</p>
+                </div>
+            </div>
+            <div class="spacer-10"></div>
+            <div class="flex-class">
+                <img src="static/why-6.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Peer-Learning</h2>
+                    <p class="font-decoration">learn from & grow with the individuals who are a part of your edition from their good regional experiences, learnings, etc..</p>
+                </div>
+            </div>
+            <div class="spacer-10"></div>
+            <div class="flex-class">
+                <img src="static/why-7.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Build your network</h2>
+                    <p class="font-decoration">Connect with experts, researchers, learners, etc from various organizations personally. </p>
+                </div>
+            </div>
+            <div class="spacer-10"></div>
+            <div class="flex-class">
+                <img src="static/why-8.png" class="image-100">
+                <div>
+                    <h2 class="libre-font margin-bottom-5">Mentorship support</h2>
+                    <p class="font-decoration">Get personal mentoring and/or guidance support from ecochirp experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="margin-30px"></div>
+    <section class="green-bg libre-font">
+        <div class="container padding-left">
+            <div class="spacer-10"></div>
+            <h2>Our work</h2>
+        </div>
+        <div class="flex-class even-space">
+            <div class="flex-class center-flex-column">
+                <img src="static/slide-1.png" height="120">
+                <div class="spacer-10"></div>
+                <p>5000+ Students</p>
+            </div>
+            <div class="flex-class center-flex-column">
+                <img src="static/slide-2.png" height="120">
+                <div class="spacer-10"></div>
+                <p>50+ Institutions</p>
+            </div>
+            <div class="flex-class center-flex-column">
+                <img src="static/slide-3.png" height="120">
+                <div class="spacer-10"></div>
+                <p>100+ Students trained</p>
+            </div>
+            <div class="flex-class center-flex-column">
+                <img src="static/slide-4.png" height="120">
+                <div class="spacer-10"></div>
+                <p class="center">1000+ community members</p>
+            </div>
+        </div>
+        <div class="spacer-10"></div>
+    </section>
+    <section class="flex-class main-axis-center">
+        <div class="width-35">
+            <h2 class="libre-font">Understanding the Core</h2>
+            <p class="font-decoration">Expand your core knowledge in waste management policies, technology, compliances, law etc.</p>
+            <h2 class="libre-font">Build skills</h2>
+            <p class="font-decoration">Gain concrete knowledge and skills to establish a viable career path in the waste management sector.</p>
+            <h2 class="libre-font">Understanding India</h2>
+            <p class="font-decoration">Understand the real struggles & problems faced while working on the ground & how to resolve them.</p>
+            <h2 class="libre-font">Global Exposure</h2>
+            <p class="font-decoration">Understand the problem on a global level to build a solution from India but for the world.p>
+        </div>
+        <div class="inner-right display-block">
+            <form method="POST">
+                <label for="Name">Name
+                <input type="text" placeholder="Enter your name">
+                </label>
+                <label>Mobile Number
+                    <input type="tel" placeholder="Enter mobile number">                    </label>
+                <label>Email
+                    <input type="email" placeholder="Enter your email">
+                </label>
+                <label>Profession
+                    <input type="text" placeholder="Enter your profession">
+                </label>
+                <button class="red-button font-decoration">Download Brochure</button>
+            </form>
+        </div>
+    </section>
+    <section class="green-bg">
+        <div class="margin-30px"></div>
+        <h1 class="container">Ecochirp's Eminent speakers in past</h1>
+        <div class="margin-30px"></div>
+    </section>
+    <section class="container flex-class font-10">
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+    </section>
+    <section class="container flex-class font-10">
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+        <div class="libre-font center">
+            <img src="static/speaker1.png" class="speaker-image">
+            <p>Dr. Nishant Srivastava,</p>
+            <p>Researcher & Innovator Nanotechnology </p>
+        </div>
+    </section>
+    <section class="flex-class main-axis-center">
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7nPuEjB_Z6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="width-50 center">Hear directly from Harshad Gupta, Founder, Ecochirp Foundation about Waste Management Bootcamp (WMB)</p>
+        </div>
+        <div class="width-35 green-bg font-decoration font-20">
+            <p>100% virtual Bootcamp 15th May - 30th June 2021 Personalized mentoring Weekly task</p>
+            <p>Language - English</p>
+            <p>30+ Experts</p>
+            <p>Scholarships available Fees - Rs. 15000/-</p>
+            <button class="red-button font-decoration">Apply Now</button>
+            <p>*Scholarships available till 30th April 2021</p>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h1>Ecochirp Foundation</h1>
+            <div class="spacer-10"></div>
+            <div class="flex-class space-around">
+                <a><img src="static/ig.webp"></a>
+                <a><img src="static/mail.webp"></a>
+                <a><img src="static/fb.webp"></a>
+                <a><img src="static/tw.webp"></a>
+                <a><img src="static/linkedin.webp"></a>
+            </div>
+        </div>
+        <div>
+            <p>ABL Workspaces,<br>
+                Cannaught Place,<br>
+                New Delhi, Delhi - 110001
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
