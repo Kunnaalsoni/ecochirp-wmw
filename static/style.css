@@ -24,7 +24,8 @@ html {
 }
 
 .inner-text {
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 60px;
 }
 
@@ -60,8 +61,13 @@ p {
 }
 
 .hero-vector {
-    height: 200px;
-    justify-content: right;
+    height: 531px;
+    right: 0px;
+    position: absolute;
+}
+
+.z-index {
+    z-index: -1;
 }
 
 
@@ -84,6 +90,10 @@ p {
 
 .right-decorator {
     padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .red-text {
@@ -93,7 +103,6 @@ p {
 .flex-section {
     display: flex;
     padding-top: 50px;
-    background-color: #fdfdfd;
     margin-left: auto;
     margin-right: auto;
 }
@@ -101,7 +110,6 @@ p {
 .green-bg {
     background-color: #537a5a;
     padding: 5px;
-    margin: 5px;
     color: #fdfdfd;
 }
 
@@ -127,7 +135,7 @@ p {
 
 .align-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .width-35 {
@@ -153,6 +161,11 @@ p {
 
 .spacer-10 {
     height: 10px;
+}
+
+.width-90 {
+    width: 90%;
+    text-align: justify;
 }
 
 .even-space {
@@ -195,6 +208,49 @@ p {
 }
 
 .body-vector {
-    background-image: url('body-vector.png');
-    background-repeat: no-repeat;
+    z-index: -1;
+    position: absolute;
+    height: 440px;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.center-flex {
+    align-self: center;
+}
+
+.padding-top {
+    padding-top: 0 !important;
+}
+
+footer {
+    background-color: #429e63;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    color: #fdfdfd;
+    font-family: 'Nunito', sans-serif;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.spacer-80 {
+    height: 80px;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
 }
